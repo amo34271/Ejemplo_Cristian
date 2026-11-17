@@ -29,8 +29,8 @@ class MainActivity : ComponentActivity() {
             AppDAM2627Theme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
 
-                   // MyEstado3(modifier = Modifier.padding(innerPadding).background(color = Color.Cyan))
-                    MyStateHoisting1(modifier = Modifier.padding(innerPadding).background(color = Color.Cyan))
+                    MyStateHoisting0(modifier = Modifier.padding(innerPadding).background(color = Color.Cyan))
+                   // MyStateHoisting1(modifier = Modifier.padding(innerPadding).background(color = Color.Cyan))
 
                 }
             }

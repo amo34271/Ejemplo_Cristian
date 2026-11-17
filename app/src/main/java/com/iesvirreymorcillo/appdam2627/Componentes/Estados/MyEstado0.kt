@@ -24,13 +24,14 @@ fun MyEstado0(modifier: Modifier) {
     //var numero = mutableStateOf("0")
     //remember para que recuerde el estado. Si no se pone cada vez que se recomponga la vista la pone a 0
     var numero = remember { mutableStateOf(0) }
-   // var numero = remember { mutableStateOf("0") }
-    Column (
+
+       // var numero = remember { mutableStateOf("0") }
+    Column ( modifier = Modifier
     ){
-        Text(text = "Púlsame: ${numero.value}", modifier = Modifier.padding(top= 32.dp).background(color= Color.Red).clickable { numero.value += 1 })
-        Text(text = "Púlsame: ",  modifier = Modifier.clickable{ numero.value +=1 })
-        Text(text = "Púlsame: ",  modifier = Modifier.clickable{ numero.value +=1 })
-        Text(text = "Púlsame: ${numero.value}", modifier = Modifier.background(color = Color.Black).clickable{ numero.value +=1 },
+        Text(text = "Púlsame: ${numero.value}", modifier = modifier.padding(top= 32.dp).background(color= Color.Red).clickable { numero.value += 1 })
+        Text(text = "Púlsame: ",  modifier = modifier.clickable{ numero.value +=1 }.fillMaxWidth())
+        Text(text = "Púlsame: ",  modifier = modifier.clickable{ numero.value +=1 })
+        Text(text = "Púlsame: ${numero.value}", modifier = modifier.background(color = Color.Black).clickable{ numero.value +=1 },
             color = Color.White)
         Text(text = "Púlsame: ",  modifier = Modifier.clickable{ numero.value +=1 })
     }
