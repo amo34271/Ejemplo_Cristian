@@ -13,7 +13,7 @@
         </DropdownSelection>
         <DialogSelection />
       </SelectionState>
-      <SelectionState runConfigName="NameFieldPreview">
+      <SelectionState runConfigName="MyTestTextField1M3">
         <option name="selectionMode" value="DROPDOWN" />
         <DropdownSelection timestamp="2026-11-17T07:57:26.373844600Z">
           <Target type="DEFAULT_BOOT">
@@ -24,7 +24,7 @@
         </DropdownSelection>
         <DialogSelection />
       </SelectionState>
-      <SelectionState runConfigName="EmailPasswordFieldsPreview">
+      <SelectionState runConfigName="MyTestTextField2M3">
         <option name="selectionMode" value="DROPDOWN" />
         <DropdownSelection timestamp="2026-11-17T07:57:26.373844600Z">
           <Target type="DEFAULT_BOOT">
@@ -35,7 +35,7 @@
         </DropdownSelection>
         <DialogSelection />
       </SelectionState>
-      <SelectionState runConfigName="EmailErrorFieldPreview">
+      <SelectionState runConfigName="MyTestTextField3M3">
         <option name="selectionMode" value="DROPDOWN" />
         <DropdownSelection timestamp="2026-11-17T07:57:26.373844600Z">
           <Target type="DEFAULT_BOOT">
@@ -46,7 +46,7 @@
         </DropdownSelection>
         <DialogSelection />
       </SelectionState>
-      <SelectionState runConfigName="GreetingContentPreview">
+      <SelectionState runConfigName="MyTestTextField4M3">
         <option name="selectionMode" value="DROPDOWN" />
         <DropdownSelection timestamp="2026-11-17T07:57:26.373844600Z">
           <Target type="DEFAULT_BOOT">
@@ -57,7 +57,7 @@
         </DropdownSelection>
         <DialogSelection />
       </SelectionState>
-      <SelectionState runConfigName="LoginContentPreview">
+      <SelectionState runConfigName="MyTestTextField5M3">
         <option name="selectionMode" value="DROPDOWN" />
         <DropdownSelection timestamp="2026-11-17T07:57:26.373844600Z">
           <Target type="DEFAULT_BOOT">
